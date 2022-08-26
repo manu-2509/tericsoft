@@ -4,7 +4,7 @@
     background-color:rgb(45,45,45);
     color:whitesmoke;
     padding:10px;
-    box-shadow: rgba(0, 0, 0, 0.979) 0px 4px 6px -1px, rgba(0, 0, 0, 0.892) 0px 2px 4px -1px;
+    box-shadow: rgba(0, 0, 0, 0.952) 0px -50px 10px -50px inset;
 }
 .icons{
     width:100px;
@@ -17,4 +17,17 @@
 }
 .one:hover,.two:hover,.three:hover,.four:hover,.five:hover,.six:hover,.seven:hover,.eight:hover,.nine:hover{
     background-color:rgba(62, 62, 62, 0.696)
+}
+.bar{
+    display:flex;
+    justify-content:center;
+    background-color:rgb(45,45,45);
+    color:whitesmoke;
+    border-bottom: 10px solid whitesmoke;
+}
+.bar-part{
+    width:130px;
+}
+.part1:hover,.part2:hover,.part3:hover,.part4:hover{
+    font-weight:bold;
 }
