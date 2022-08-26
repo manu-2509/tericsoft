@@ -1,5 +1,6 @@
-import {Header} from './components/header'
+import {Header} from './components/Header'
 import { Bar } from './components/Bar';
+import {Highlight } from './components/Highlight';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
    <Header></Header>
    <Bar></Bar>
+   <Highlight></Highlight>
     </div>
   );
 }
